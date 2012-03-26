@@ -237,21 +237,24 @@ figure video {
 }
 figcaption{
 	width:99%;
-	min-height:1.5em;
-	max-height:3em;
+	height:1.5em;
 	padding:1%;
+	overflow:hidden;
 	position: absolute;
 		bottom:0;
 
-	-webkit-transition: height 1s ease-in-out;
-	-moz-transition: height 1s ease-in-out;
-	-o-transition: height 1s ease-in-out;
-	-ms-transition: height 1s ease-in-out;
-	transition: height 1s ease-in-out;
+	-webkit-transition: height .3s ease-in-out;
+	-moz-transition: height .3s ease-in-out;
+	-o-transition: height .3s ease-in-out;
+	-ms-transition: height .3s ease-in-out;
+	transition: height .3s ease-in-out;
 }
+	figcaption:after{
+		content: '...';
+	}
 
 	figcaption:hover{
-		height:100%;
+		height:7.1em;
 	}
 
 
@@ -353,12 +356,12 @@ header nav, footer nav{
 /*
 	Categories
 */
-.release figcaption{background:#ffcb05;}
-.review figcaption{background:#ffcb05;}
-.interview figcaption{background:#ffcb05;}
-.event figcaption{background:#ffcb05;}
-.podcast figcaption{background:#c0d731;}
-.feature figcaption{background:#14b1e8;}
+.release figcaption, .release h2{background:#ffcb05;}
+.review figcaption, .review h2{background:#ffcb05;}
+.interview figcaption, .interview h2{background:#ffcb05;}
+.event figcaption, .event h2{background:#ffcb05;}
+.podcast figcaption, .podcast h2{background:#c0d731;}
+.feature figcaption, .feature h2{background:#14b1e8;}
 
 
 /* Fluff */
