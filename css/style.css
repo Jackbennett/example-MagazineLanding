@@ -215,13 +215,58 @@ td { vertical-align: top; }
 
 
 /* ==|== primary styles =====================================================
-	 Author:
+	 Author: jackben.net
 	 ========================================================================== */
 
+body{
+	background:#1a1a1a;
+	color:#fff;
+}
 
+#wrap{
+	width:960px;
+	margin:0 auto;
+}
 
+header h1{
+	float:left;
+}
+header #promo{
+	float:right;
+}
 
+header nav, footer nav{
+	float: left;
+}
+	header nav li, footer nav li{
+		display: inline;
+	}
+		header nav li a, footer nav li a{
+			color: #fff;
+			text-decoration:none;
+		}
+		header nav li a, footer nav li a:hover{
+			color: #000;
+			text-decoration:none;
+		}
+	footer #social{
+		float:right;
+	}
 
+#search{
+	float:right;
+}
+
+.left{float:left}
+.right{float:right}
+
+/* Fluff */
+.bar{
+	padding:10px;
+	overflow:hidden;
+	clear:both;
+	background:#b51e8f;
+}
 
 
 
