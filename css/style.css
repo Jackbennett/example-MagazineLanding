@@ -253,8 +253,8 @@ figcaption{
 		content: '...';
 	}
 
-	figcaption:hover{
-		height:7.1em;
+	figure:hover figcaption{
+		height: 70%;
 	}
 
 
@@ -327,20 +327,12 @@ header nav, footer nav{
 	-ms-box-sizing: border-box;
 	-o-box-sizing: border-box;
 	box-sizing: border-box;
-
-	height:140px;
 }
 .grid article.wide{
-
-		width:; /* Two column */
-
-
+	width:; /* Two column */
 }
 .grid article.feature{
-
-		width:100%; /* All column */
-
-	height:250px;
+	width:100%; /* All column */
 }
 .grid article h2{
 	margin:0;
